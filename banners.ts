@@ -7,7 +7,7 @@ export default [
   {
     name: "Vanguard",
     description: "Gain health upon dealing damage to an enemy.",
-    stats: ["+8 health per hit", "+24 health per hit", "+32 health per hit", "+40 health per hit"],
+    stats: ["+16 health per hit", "+48 health per hit", "+64 health per hit", "+80 health per hit"],
   },
   {
     name: "Support",
@@ -17,31 +17,33 @@ export default [
   {
     name: "Protector",
     description: "Your maximum health is increased.",
-    stats: ["+12% health", "+36% health", "+48% health", "+60% health"],
+    stats: ["+10% health", "+30% health", "+40% health", "+50% health"],
   },
   {
     name: "Seeker",
     description: "Gain increased amounts when picking up heavy ammo and primal energy.",
-    stats: ["+15% charge", "+45% charge", "+60% charge", "+75% charge"],
+    stats: ["+20% charge", "+60% charge", "+80% charge", "+100% charge"],
   },
   {
     name: "Primalist",
-    description: "Your primal cooldown is reduced.",
-    stats: ["+10% charge reduction", "+30% charge reduction", "+40% charge reduction", "+50% charge reduction"],
+    description: "Your primal, primal attack, andprimal power cooldowns are reduced.",
+    stats: ["+6% charge reduction", "+18% charge reduction", "+24% charge reduction", "+30% charge reduction",
+            "+4% attack and power charge reduction","+12% attack and power charge reduction",
+            "+16% attack and power charge reduction","+20% attack and power charge reduction",],
   },
   {
     name: "Sniper",
-    description: "Deal increased damage while there are no enemies within 8.5m.",
-    stats: ["+5% damage", "+15% damage", "+20% damage", "+25% damage"],
+    description: "Deal increased damage while there are no enemies within 9.0m.",
+    stats: ["+6% damage", "+18% damage", "+24% damage", "+30% damage"],
   },
   {
     name: "Assassin",
-    description: "Deal increased damage while within 5.0m of an enemy.",
+    description: "Deal increased damage while within 6.0m of an enemy.",
     stats: ["+8% damage", "+24% damage", "+32% damage", "+40% damage"],
   },
   {
     name: "Ranger",
-    description: "Gain increased movespeed in brush.",
-    stats: ["+15% movespeed", "+45% movespeed", "+60% movespeed", "+75% movespeed"],
+    description: "Gain increased movespeed while in brush and for 1.4s afterwards.",
+    stats: ["+10% movespeed", "+30% movespeed", "+40% movespeed", "+50% movespeed"],
   },
 ]
