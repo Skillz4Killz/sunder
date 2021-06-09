@@ -837,7 +837,7 @@ export default [
    {
     name: "MK-4 Accelerator",
     description: "This heavy rocket launcher fires at increased rangewith a larger clip at the cost of damage.",
-    quote: `The Mk-IV was a breakthrough for the Vingians in their attempts to increase both the projectile speed and the range of their heavy weapon. The Accelerator seriesis still being improved upon today, but the Mk-IV remainsthe most reliableof all publicly available models.`,
+    quote: `The Mk-IV was a breakthrough for the Vingians in their attempts to increase both the projectile speed and the range of their heavy weapon. The Accelerator series is still being improved upon today, but the Mk-IV remainsthe most reliableof all publicly available models.`,
     type: "Heavy",
     title: "Heavy Rocket Launcher",
     stats: [
@@ -939,7 +939,7 @@ export default [
     description: "This primary motor labs two explosives in rapid succession - best against those who are unable to maneuver easily.",
     quote: `Vingian artisans are convinced catalyte is rhythmic in nature, with some interpretations going so far as to describe it as ‘musical.’ The break-through decision making that allowed for heightened performance Vingian design was the inclusion of repetitive patterns. Catalytic power seems to sit most comfortably in these cyclical forms. The stylized approach to construction has become a hallmark of Vingian craft.`,
     type: "Primary",
-    title: "Pistol",
+    title: "Mortar",
     stats: [
       {
         level: 1,
