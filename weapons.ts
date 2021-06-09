@@ -836,7 +836,7 @@ export default [
   },
    {
     name: "MK-4 Accelerator",
-    description: "This heavy rocket launcher fires at increased rangewith a larger clip at the cost of damage.",
+    description: "This heavy rocket launcher fires at increased range with a larger clip at the cost of damage.",
     quote: `The Mk-IV was a breakthrough for the Vingians in their attempts to increase both the projectile speed and the range of their heavy weapon. The Accelerator series is still being improved upon today, but the Mk-IV remainsthe most reliableof all publicly available models.`,
     type: "Heavy",
     title: "Heavy Rocket Launcher",
