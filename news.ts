@@ -1,7 +1,7 @@
 export default [
      {
         link: "https://twitter.com/catalystblk/status/1397237135829311499",
-        image:"https://imgur.com/icmRmm6",
+        image:"https://i.imgur.com/icmRmm6.jpeg",
         title: "CATALYST BLACK Patch 0.11 Teaser: Quest Hub",
         date: "May 18, 2021",
      },
