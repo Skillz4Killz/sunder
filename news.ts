@@ -1,4 +1,34 @@
 export default [
+     {
+        link: "https://twitter.com/catalystblk/status/1397237135829311499",
+        image:"https://imgur.com/icmRmm6",
+        title: "CATALYST BLACK Patch 0.11 Teaser: Quest Hub",
+        date: "May 18, 2021",
+     },
+     {
+        link: "https://catalystblack.com/spotlight-patch-0-10/",
+        image:"https://catalystblack.com/wp-content/uploads/2020/08/CC-Spotlight-Blog-1.png",
+        title: "CATALYST BLACK CONTENT CREATOR SPOTLIGHT 5/18/2021: Patch 0.10",
+        date: "May 18, 2021",
+     },
+      {
+        link: "https://catalystblack.com/0-10/",
+        image:"https://catalystblack.com/wp-content/uploads/2021/04/Catalyst-Black-Patch-0-10.jpg",
+        title: "SECRET SERVICE – 0.10 PATCH NOTES - New UI/Ascension Levels",
+        date: "April 20, 2021",
+      },
+      {
+        link: "https://catalystblack.com/0-9/",
+        image:"https://catalystblack.com/wp-content/uploads/2021/03/PatchNotes09_BlogHeader.jpg",
+        title: "SECRET SERVICE – 0.9 PATCH NOTES - Clash Mode(Slayer)",
+        date: "March 18, 2021",
+     },
+     {
+        link: "https://catalystblack.com/0-7/",
+        image:"https://catalystblack.com/wp-content/uploads/2020/12/PatchNotes07_BlogHeader.jpg",
+        title: "SECRET SERVICE – 0.7 PATCH NOTES - War Mode : Eventide",
+        date: "December 9, 2020",
+    },
     {
         link: "https://catalystblack.com/catalyst-black-content-creator-spotlight-9-18/",
         image:"https://catalystblack.com/wp-content/uploads/2020/08/CC-Spotlight-Blog-1.png",
