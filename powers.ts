@@ -8,17 +8,45 @@ export default [
       {
         level: 1,
         stats: [
-          { name: "Charge Time", value: "3.2s" },
-          { name: "Damage", value: "1600" },
-          { name: "Range", value: "8.6" },
+          { name: "Charge Time", value: "2.8s" },
+          { name: "Damage", value: "2722" },
+          { name: "Range", value: "9.2" },
         ],
       },
       {
         level: 2,
         stats: [
-          { name: "Charge Time", value: "3.2s" },
-          { name: "Damage", value: "1632" },
-          { name: "Range", value: "8.6" },
+          { name: "Charge Time", value: "2.8s" },
+          { name: "Damage", value: "2776" },
+          { name: "Range", value: "9.2" },
+        ],
+      },
+    ],
+  },
+   {
+    name: "Primal Roar",
+    primal: "Sunder",
+    description: "Issuing an otherworldly howl of anger, Sunder grows in size, speed, and power.",
+    quote: "If a sound could end you...",
+    stats: [
+      {
+        level: 1,
+        stats: [
+          { name: "Charge Time", value: "9.6s" },
+          { name: "Primary Damage Increase", value: "20%" },
+          { name: "Damage Reduction", value: "25%" },
+          { name: "Movespeed Strength", value: "40%" },
+          { name: "Duration", value: "6s" },
+        ],
+      },
+      {
+        level: 2,
+        stats: [
+          { name: "Charge Time", value: "9.6s" },
+          { name: "Primary Damage Increase", value: "20.75%" },
+          { name: "Damage Reduction", value: "25%" },
+          { name: "Movespeed Strength", value: "41%" },
+          { name: "Duration", value: "6.07s" },
         ],
       },
     ],
@@ -32,43 +60,17 @@ export default [
       {
         level: 1,
         stats: [
-          { name: "Charge Time", value: "4.4s" },
-          { name: "Damage Per Second", value: "2000" },
-          { name: "Range", value: "18" },
+          { name: "Charge Time", value: "?" },
+          { name: "Damage Per Second", value: "?" },
+          { name: "Range", value: "?" },
         ],
       },
       {
         level: 2,
         stats: [
-          { name: "Charge Time", value: "4.4s" },
-          { name: "Damage Per Second", value: "2040" },
-          { name: "Range", value: "18" },
-        ],
-      },
-    ],
-  },
-  {
-    name: "Primal Roar",
-    primal: "Sunder",
-    description: "Issuing an otherworldly howl of anger, Sunder grows in size, speed, and power.",
-    quote: "If a sound could end you...",
-    stats: [
-      {
-        level: 1,
-        stats: [
-          { name: "Charge Time", value: "9.6s" },
-          { name: "Primary Damage Increase", value: "20%" },
-          { name: "Movespeed Strength", value: "40%" },
-          { name: "Duration", value: "6s" },
-        ],
-      },
-      {
-        level: 2,
-        stats: [
-          { name: "Charge Time", value: "9.6s" },
-          { name: "Primary Damage Increase", value: "20.75%" },
-          { name: "Movespeed Strength", value: "41%" },
-          { name: "Duration", value: "6.07s" },
+          { name: "Charge Time", value: "?s" },
+          { name: "Damage Per Second", value: "?" },
+          { name: "Range", value: "?" },
         ],
       },
     ],
@@ -84,9 +86,10 @@ export default [
         level: 1,
         stats: [
           { name: "Charge Time", value: "8.6s" },
-          { name: "Damage Per Second", value: "2500" },
+          { name: "Damage Per Second", value: "3450" },
           { name: "Maximum Radius", value: "7.2" },
           { name: "Minimum Radius", value: "2.4" },
+          { name: "Damage Reduction", value: "50%" },
           { name: "Duration", value: "3s" },
         ],
       },
@@ -94,9 +97,10 @@ export default [
         level: 2,
         stats: [
           { name: "Charge Time", value: "8.6s" },
-          { name: "Damage Per Second", value: "2550" },
+          { name: "Damage Per Second", value: "3519" },
           { name: "Maximum Radius", value: "7.2" },
           { name: "Minimum Radius", value: "2.4" },
+          { name: "Damage Reduction", value: "50%" },
           { name: "Duration", value: "3s" },
         ],
       },
@@ -112,19 +116,19 @@ export default [
       {
         level: 1,
         stats: [
-          { name: "Charge Time", value: "6.5s" },
-          { name: "Damage Per Second", value: "1200" },
+          { name: "Charge Time", value: "5.2s" },
+          { name: "Damage Per Second", value: "2040" },
           { name: "Effect Radius", value: "4.8" },
-          { name: "Duration", value: "3s" },
+          { name: "Duration", value: "4.6s" },
         ],
       },
       {
         level: 2,
         stats: [
-          { name: "Charge Time", value: "6.5s" },
-          { name: "Damage Per Second", value: "1224" },
+          { name: "Charge Time", value: "5.2s" },
+          { name: "Damage Per Second", value: "2080" },
           { name: "Effect Radius", value: "4.8" },
-          { name: "Duration", value: "3s" },
+          { name: "Duration", value: "4.6s" },
         ],
       },
     ],
@@ -139,19 +143,17 @@ export default [
       {
         level: 1,
         stats: [
-          { name: "Charge Time", value: "6.5s" },
-          { name: "Damage Per Second", value: "1200" },
-          { name: "Effect Radius", value: "4.8" },
-          { name: "Duration", value: "3s" },
+          { name: "Charge Time", value: "3.6s" },
+          { name: "Damage Per Second", value: "1080" },
+          { name: "Effect Radius", value: "8.8" },
         ],
       },
       {
         level: 2,
         stats: [
-          { name: "Charge Time", value: "6.5s" },
-          { name: "Damage Per Second", value: "1224" },
-          { name: "Effect Radius", value: "4.8" },
-          { name: "Duration", value: "3s" },
+          { name: "Charge Time", value: "3.6s" },
+          { name: "Damage Per Second", value: "1101" },
+          { name: "Effect Radius", value: "8.8" },
         ],
       },
     ],
@@ -167,7 +169,7 @@ export default [
         stats: [
           { name: "Max Charges", value: "3" },
           { name: "Charge Time", value: "3.8s" },
-          { name: "Damage", value: "820" },
+          { name: "Damage", value: "1450" },
           { name: "Range", value: "13.2" },
           { name: "Effect Radius", value: "3.4" },
         ],
@@ -177,9 +179,35 @@ export default [
         stats: [
           { name: "Max Charges", value: "3" },
           { name: "Charge Time", value: "3.8s" },
-          { name: "Damage", value: "836" },
+          { name: "Damage", value: "1479" },
           { name: "Range", value: "13.2" },
           { name: "Effect Radius", value: "3.4" },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Guardian",
+    primal: "Torden",
+    description: "Torden targets an area, granting all allies inside a large shield.",
+    quote: "A happy soul is the best shield.",
+    stats: [
+      {
+        level: 1,
+        stats: [
+            { name: "Charge Time", value: "4.4s" },
+          { name: "Damage", value: "1350" },
+          { name: "Range", value: "14.4" },
+           { name: "Effect Raduis", value: "6" },
+        ],
+      },
+      {
+        level: 2,
+        stats: [
+            { name: "Charge Time", value: "4.4s" },
+          { name: "Damage", value: "1377" },
+          { name: "Range", value: "14.4" },
+           { name: "Effect Raduis", value: "6" },
         ],
       },
     ],
@@ -194,43 +222,17 @@ export default [
       {
         level: 1,
         stats: [
-          { name: "Charge Time", value: "5.8s" },
-          { name: "Damage", value: "740" },
-          { name: "Range", value: "12" },
+          { name: "Charge Time", value: "?s" },
+          { name: "Damage", value: "?" },
+          { name: "Range", value: "?" },
         ],
       },
       {
         level: 2,
         stats: [
-          { name: "Charge Time", value: "5.8s" },
-          { name: "Damage", value: "754" },
-          { name: "Range", value: "12" },
-        ],
-      },
-    ],
-  },
-  {
-    name: "Guardian",
-    primal: "Torden",
-    description: "Torden targets an area, granting all allies inside a large shield.",
-    quote: "A happy soul is the best shield.",
-    stats: [
-      {
-        level: 1,
-        stats: [
-          { name: "Charge Time", value: "4.4s" },
-          { name: "Shield Strength", value: "1200" },
-          { name: "Range", value: "12.8" },
-          { name: "Effect Radius", value: "6" },
-        ],
-      },
-      {
-        level: 2,
-        stats: [
-          { name: "Charge Time", value: "4.4s" },
-          { name: "Shield Strength", value: "1224" },
-          { name: "Range", value: "12.8" },
-          { name: "Effect Radius", value: "6" },
+          { name: "Charge Time", value: "?s" },
+          { name: "Damage", value: "?" },
+          { name: "Range", value: "?" },
         ],
       },
     ],
@@ -245,7 +247,7 @@ export default [
         level: 1,
         stats: [
           { name: "Charge Time", value: "10.2s" },
-          { name: "Damage Per Second", value: "1250" },
+          { name: "Damage Per Second", value: "2125" },
           { name: "Range", value: "9" },
           { name: "Duration", value: "4s" },
           { name: "Movespeed Strength", value: "30%" },
@@ -256,7 +258,7 @@ export default [
         level: 2,
         stats: [
           { name: "Charge Time", value: "10.2s" },
-          { name: "Damage Per Second", value: "1275" },
+          { name: "Damage Per Second", value: "2167" },
           { name: "Range", value: "9" },
           { name: "Duration", value: "4.1s" },
           { name: "Movespeed Strength", value: "30.25%" },
@@ -275,8 +277,8 @@ export default [
       {
         level: 1,
         stats: [
-          { name: "Charge Time", value: "8.2.4s" },
-          { name: "Damage", value: "750" },
+          { name: "Charge Time", value: "8.2s" },
+          { name: "Damage", value: "1275" },
           { name: "Range", value: "14" },
           { name: "Effect Radius", value: "3.6" },
         ],
@@ -284,8 +286,8 @@ export default [
       {
         level: 2,
         stats: [
-          { name: "Charge Time", value: "8.2.4s" },
-          { name: "Damage", value: "765" },
+          { name: "Charge Time", value: "8.2s" },
+          { name: "Damage", value: "1300" },
           { name: "Range", value: "14" },
           { name: "Effect Radius", value: "3.6" },
         ],
@@ -302,19 +304,69 @@ export default [
       {
         level: 1,
         stats: [
-          { name: "Charge Time", value: "5.2s" },
-          { name: "Damage", value: "1200" },
-          { name: "Range", value: "14" },
-          { name: "Effect Radius", value: "5.4" },
+          { name: "Charge Time", value: "?" },
+          { name: "Damage", value: "?" },
+          { name: "Range", value: "?" },
+          { name: "Effect Radius", value: "?" },
         ],
       },
       {
         level: 2,
         stats: [
-          { name: "Charge Time", value: "5.2s" },
-          { name: "Damage", value: "1224" },
-          { name: "Range", value: "14" },
-          { name: "Effect Radius", value: "5.4" },
+           { name: "Charge Time", value: "?" },
+          { name: "Damage", value: "?" },
+          { name: "Range", value: "?" },
+          { name: "Effect Radius", value: "?" },
+        ],
+      },
+    ],
+  },
+   {
+    name: "Savage Charge ",
+    primal: "Jainx",
+    description:
+      "Charging forward, Jainx damages any enemy he collides with, dragging them along his path.",
+    quote: "You are being taken where you do not want to go.",
+    stats: [
+      {
+        level: 1,
+        stats: [
+          { name: "Charge Time", value: "3s" },
+          { name: "Damage", value: "950" },
+          { name: "Range", value: "18" },
+        ],
+      },
+      {
+        level: 2,
+        stats: [
+          { name: "Charge Time", value: "3s" },
+          { name: "Damage", value: "969" },
+          { name: "Range", value: "18" },
+        ],
+      },
+    ],
+  },
+   {
+    name: "Corral",
+    primal: "Jainx",
+    description:
+      "Jainx targets an area, pulling all enemies towards its center, damaging them in the collision.",
+    quote: "Gathered together for a single purpose.",
+    stats: [
+      {
+        level: 1,
+        stats: [
+          { name: "Charge Time", value: "2.4s" },
+          { name: "Damage", value: "1150" },
+          { name: "Effect Radius", value: "8" },
+        ],
+      },
+      {
+        level: 2,
+        stats: [
+          { name: "Charge Time", value: "2.4s" },
+          { name: "Damage", value: "1173" },
+          { name: "Effect Radius", value: "8" },
         ],
       },
     ],
