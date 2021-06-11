@@ -46,7 +46,7 @@ export default [
         ],
       },
     ],
-    banner: "Vanguard",
+    banner: "Protector",
   },
   {
     name: "Rush",
