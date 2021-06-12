@@ -298,6 +298,38 @@ export default [
     ],
     banner: "Primal Hunter",
   },
+    {
+    name: "Frost Nova",
+    description: "Radiate a pulse of frost, damaging and slowing nearby enemies.",
+    stats: [
+      {
+        level: 1,
+        stats: [
+          { name: "Health Max", value: "80" },
+          { name: "Charge Time", value: "11.4s" },
+          { name: "Cast Range", value: "13.4" },
+          { name: "Damage", value: "700" },
+          { name: "Slow Strength", value: "-45%" },
+          { name: "Slow Duration", value: "2.2s" },
+          { name: "Effect Radius", value: "8" },
+          
+        ],
+      },
+      {
+        level: 2,
+        stats: [
+          { name: "Health Max", value: "102" },
+          { name: "Charge Time", value: "11.4s" },
+          { name: "Cast Range", value: "13.4" },
+          { name: "Damage", value: "714" },
+          { name: "Slow Strength", value: "-45%" },
+          { name: "Slow Duration", value: "2.24s" },
+          { name: "Effect Radius", value: "8" },
+        ],
+      },
+    ],
+    banner: "Sniper",
+  },
   {
     name: "Grounding Bolt",
     description: "Release a bolt of energy in target direction, slowing the enemy struct by it.",
