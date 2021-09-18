@@ -698,4 +698,20 @@ export default [
     ],
     banner: "Primal Hunter",
   },
+    {
+    name: "Harbinger",
+    description: "Siphoning primal energy, your size, health, and movement speed increase.",
+    stats: [
+      {
+        level: 1,
+        stats: [
+          { name: "Health Max", value: "120" },
+          { name: "Charge Time", value: "90s" },          
+          { name: "Max Charges", value: "1" },
+          { name: "Duration", value: "8s" },
+          { name: "Bonus Health", value: "2000" },
+          { name: "Movespeed Strength", value: "20%" },
+          ],
+    banner: "Primal Hunter",
+  },
 ]
