@@ -981,4 +981,48 @@ export default [
     ],
     banner: "Assassin",
   },
+ {
+    name: "Brighton",
+    description: "A standard flame thrower that releases a steady stream of fire at short range - great when working with a team, but not as effective in small smaller skirmishes.",
+    quote: `Initially developed for use in public service efforts, the Brighton model proved itself remarkably useful in defensive combat scenarios.`,
+    type: "Primary",
+    title: "Thrower",
+    stats: [
+      {
+        level: 1,
+        stats: [
+          { name: "Health Max", value: "+37.5%" },
+          { name: "Move Speed", value: "+3.25%" },
+          { name: "Damage", value: "1320" },
+          { name: "Max Charges", value: "28" },
+          { name: "Range", value: "10" },
+          { name: "Primal Energy On Hit", value: "0.27s" },
+          { name: "Reload Time", value: "1.6s" },
+          { name: "Reactivation Delay", value: "0.1s" },
+        ],
+      },
+    ],
+    banner: "Vanguard",
+  },
+ {
+    name: "Negate Siren",
+    description: "This heavy sniper rifle has a large clip and can slow targets at higher infusion tiers.",
+    quote: `Tiring of the incessant pressure to craft weapons bent on destruction, The Vingians began experimenting with the broader potential for catalytic projectiles. The Negate Siren was an effort the Vingians hoped would be capable of diffusing conflict as opposed to heightening it.`,
+    type: "Heavy",
+    title: "Heavy Sniper Rifle",
+    stats: [
+      {
+        level: 1,
+        stats: [
+          { name: "Damage", value: "500" },
+          { name: "Max Charges", value: "8" },
+          { name: "Range", value: "13.8" },
+          { name: "Charge On Pickup", value: "223%" },
+          { name: "Reactivation Delay", value: "0.7s" },
+          { name: "Damage at Close Range", value: "50%" },
+        ],
+      },
+    ],
+    banner: "Support",
+  },
 ]
